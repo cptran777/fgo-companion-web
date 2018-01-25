@@ -2,7 +2,7 @@
   "name": "fgo-companion-web",
   "version": "0.0.1",
   "description": "Frontend client for fate grand order companion application written in node and react",
-  "main": "index.js",
+  "main": "server/index.ts",
   "scripts": {
     "start": "cd client && npm run build && cd .. && npm run build && npm run watch",
     "build": "npm run build-ts && npm run tslint",

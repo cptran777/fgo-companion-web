@@ -17,6 +17,6 @@
         }
     },
     "include": [
-        "top-kek-rpg-server/**/*"
+        "server/**/*"
     ]
 }
