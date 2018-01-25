@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noEmitOnError": true,
+        "pretty": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "top-kek-rpg-server/**/*"
+    ]
+}
